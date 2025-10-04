@@ -20,7 +20,7 @@ class KNearestNeighbor(object):
         """
         self.X_train = X 
         self.y_train = y
-
+    #这部分都被写好了
     def predict(self, X, k=1, num_loops=0):
         """
         使用该分类器预测测试数据的标签。
